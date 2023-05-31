@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-
 <html>
+  <head>
+    <title>Letter Combinations</title>
+    <style>
+      #result {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form onsubmit="generateCombinations(event)">
+      <label for="digits">Enter the digit string:</label>
+      <input type="text" id="digits" />
+      <button type="submit">Generate Combinations</button>
+    </form>
+    <div id="result"></div>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-	  <h1>Letter Combinations</h1>
-  <div class="container">
-    <label for="input">Enter digit string:</label>
-    <input type="text" id="input" placeholder="Enter digits...">
-    <button id="generateBtn">Generate</button>
-    <ul id="result"></ul>
-  </div>
-    <script type="text/javascript" src="./script.js">
-   </script>
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
